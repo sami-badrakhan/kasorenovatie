@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - KASO Renovatie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/images/logo.png" alt="KASO Renovatie Logo" class="logo-img">
+                <span>KASO</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="over.html">Over Ons</a></li>
+                <li><a href="diensten.html">Diensten</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html" class="active btn-contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contacteer Ons</h1>
+            <p>We horen graag van u! Neem vandaag contact op</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <div class="contact-form-box">
+                    <h2>Vraag een Offerte Aan</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Uw Naam *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mailadres *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Telefoonnummer *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Onderwerp *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">-- Kies een dienst --</option>
+                                <option value="dakwerken">Dakwerken</option>
+                                <option value="isolatie">Isolatie</option>
+                                <option value="badkamer">Badkamerrenovatie</option>
+                                <option value="keuken">Keukenrenovatie</option>
+                                <option value="schilderen">Schilderwerken</option>
+                                <option value="tegels">Vloer- en Tegelwerken</option>
+                                <option value="overig">Overig</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Uw Bericht *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Verstuur Bericht</button>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-box">
+                    <h2>Contactgegevens</h2>
+                    
+                    <div class="info-item">
+                        <h4>📞 Telefoonnummer</h4>
+                        <p>
+                            <a href="tel:0465777341">0465777341</a>
+                        </p>
+                        <p class="small">Bel ons tijdens werktijden voor directe hulp</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h4>📧 E-mailadres</h4>
+                        <p>
+                            <a href="mailto:kasorenovatie@gmail.com">kasorenovatie@gmail.com</a>
+                        </p>
+                        <p class="small">Wij antwoorden binnen 24 uur</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h4>📍 Locatie</h4>
+                        <p>Antwerpen, België</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h4>🕐 Openingsuren</h4>
+                        <p>
+                            <strong>Maandag - Zaterdag:</strong> 6:00 - 18:00<br>
+                            <strong>Zondag:</strong> Gesloten
+                        </p>
+                    </div>
+
+                    <div class="info-item">
+                        <h4>🏢 Bedrijfsinfo</h4>
+                        <p>
+                            <strong>Verantwoordelijke:</strong> Jamal Alhasan<br>
+                            <strong>BTW-nr:</strong> 1008464062
+                        </p>
+                    </div>
+
+                    <div class="social-section">
+                        <h4>Volg Ons</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link">Facebook</a>
+                            <a href="#" class="social-link">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Veelgestelde Vragen</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Hoe lang duurt een offerteverzoek?</h3>
+                    <p>Wij antwoorden meestal binnen 24 uur met een vrijblijvende offerte.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Bent u verzekerd?</h3>
+                    <p>Ja, wij hebben volledige verzekeringen voor al onze werkzaamheden.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Hoe gaat het met betaling?</h3>
+                    <p>We werken meestal met aanbetaling en eindbetaling op projectafronding.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Kan ik mijn project zelf ontwerpen?</h3>
+                    <p>Absoluut! We helpen u graag met uw ontwerp en bieden ook adviezen.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>KASO Renovatie</h4>
+                    <p>Professionele renovaties in Antwerpen</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Snelle Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="over.html">Over Ons</a></li>
+                        <li><a href="diensten.html">Diensten</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contactgegevens</h4>
+                    <p><strong>Email:</strong> kasorenovatie@gmail.com</p>
+                    <p><strong>GSM:</strong> 0465777341</p>
+                    <p><strong>Uren:</strong> Ma-Za: 6:00 - 18:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 KASO Renovatie. Alle rechten voorbehouden.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
